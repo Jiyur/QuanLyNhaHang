@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QuanLyNhaHang.Ban">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgEAAEAAAAAAAgIAAEAAAhAAAAAIAAAAAAAIA=</HashCode>
+      <FileName>Ban va Order\Ban.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.BanGhe" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgQCAEBACEBAhQAQACAAJECQICEAQABAAYIAIZAFAA=</HashCode>
+      <FileName>Ban va Order\BanGhe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.Bill">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAEAQIAAEABAAAAEAAAQAAAAA=</HashCode>
+      <FileName>Ban va Order\Bill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.ChuyenBan" Collapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACAAAACgAAEAEQACAAAACAAAIAAQABEEBAQAAAAA=</HashCode>
+      <FileName>Ban va Order\ChuyenBan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.DatMonV2" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIEAAIBACCAIAQACJCAAAiCCRECbQAABEJAICAABAQ=</HashCode>
+      <FileName>Ban va Order\DatMonV2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.SoKhach" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAAAACAAAAAAAJCAAACCAAAAAIAAAQAAAAAQAAA=</HashCode>
+      <FileName>Ban va Order\SoKhach.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.XuatBill" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAGCAAAQAAACAAAACAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Ban va Order\XuatBill.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QuanLyNhaHang.Check_Form" Collapsed="true">
+    <Position X="3.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAggAQAAgCAAiBAAAgyAEAASAMAEAAIAsAIiAQAAICA=</HashCode>
+      <FileName>NV va Cong\Check_Form.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.Nhanvien">
+    <Position X="7" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAhAwEBAAAAgQAAAKAAABAoAIABABCBgAEgIAAAAA=</HashCode>
+      <FileName>NV va Cong\Nhanvien.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.QuanLy" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>uNAvgQQDgCADwViyAoiZBEYOMfhcVqMT+IOmBWAFcLw=</HashCode>
+      <FileName>NV va Cong\QuanLy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.TienCong">
+    <Position X="8.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgBCoAAMAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>NV va Cong\TienCong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.TinhLuong" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAEAAGAgAAAAAACABAACAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>NV va Cong\TinhLuong.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

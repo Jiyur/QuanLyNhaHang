@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="QuanLyNhaHang.Bep" Collapsed="true">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAEAJECAAAwAAggDABQACxCAEAQCJAgEQAABAIIA=</HashCode>
+      <FileName>Bep\Bep.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.MonAn">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAgIBMAAAAAAAAAAAAQABAAACEAAAAAAAAE=</HashCode>
+      <FileName>Bep\MonAn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.ThanhPhan">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAABAAAAgAAAgAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bep\ThanhPhan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuanLyNhaHang.ThemMon" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAABAoBACAAAQAAIsCEBIJKAAEEBACgAiFRBABQCgA=</HashCode>
+      <FileName>Bep\ThemMon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

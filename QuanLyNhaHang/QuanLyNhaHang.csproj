@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4F2EEEC5-D45B-4573-9331-A9B4A16F5700}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyNhaHang</RootNamespace>
+    <AssemblyName>QuanLyNhaHang</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\..\..\Bunifu_UI_v1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="kayChart, Version=0.3.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\kayChart.dll.0.4.7\lib\net45\kayChart.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Spire.Doc, Version=9.4.18.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Doc.9.4.18\lib\net40\Spire.Doc.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.3.8.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Doc.9.4.18\lib\net40\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf, Version=7.4.13.0, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <HintPath>..\packages\Spire.Doc.9.4.18\lib\net40\Spire.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ban va Order\Ban.cs" />
+    <Compile Include="Ban va Order\BanGhe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ban va Order\BanGhe.Designer.cs">
+      <DependentUpon>BanGhe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bep\Bep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bep\Bep.Designer.cs">
+      <DependentUpon>Bep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ban va Order\Bill.cs" />
+    <Compile Include="NewUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewUser.Designer.cs">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NV va Cong\Check_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NV va Cong\Check_Form.Designer.cs">
+      <DependentUpon>Check_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nha Kho\ChenhLech.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nha Kho\ChenhLech.Designer.cs">
+      <DependentUpon>ChenhLech.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ban va Order\ChuyenBan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ban va Order\ChuyenBan.Designer.cs">
+      <DependentUpon>ChuyenBan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ban va Order\DatMonV2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ban va Order\DatMonV2.Designer.cs">
+      <DependentUpon>DatMonV2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nha Kho\DoanhThu.cs" />
+    <Compile Include="common\DoanhThuChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common\DoanhThuChart.Designer.cs">
+      <DependentUpon>DoanhThuChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common\Globals.cs" />
+    <Compile Include="Nha Kho\Khohang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nha Kho\Khohang.Designer.cs">
+      <DependentUpon>Khohang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bep\MonAn.cs" />
+    <Compile Include="common\My_DB.cs" />
+    <Compile Include="Nha Kho\NguyenLieu.cs" />
+    <Compile Include="NV va Cong\Nhanvien.cs" />
+    <Compile Include="Nha Kho\NhapHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nha Kho\NhapHang.Designer.cs">
+      <DependentUpon>NhapHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nha Kho\NhapXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Nha Kho\NhapXuat.Designer.cs">
+      <DependentUpon>NhapXuat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common\Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="NV va Cong\QuanLy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NV va Cong\QuanLy.Designer.cs">
+      <DependentUpon>QuanLy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Nha Kho\SLmonBan.cs" />
+    <Compile Include="Ban va Order\SoKhach.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ban va Order\SoKhach.Designer.cs">
+      <DependentUpon>SoKhach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Bep\ThanhPhan.cs" />
+    <Compile Include="Bep\ThemMon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bep\ThemMon.Designer.cs">
+      <DependentUpon>ThemMon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="common\ThongKe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="common\ThongKe.Designer.cs">
+      <DependentUpon>ThongKe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NV va Cong\TienCong.cs" />
+    <Compile Include="NV va Cong\TinhLuong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NV va Cong\TinhLuong.Designer.cs">
+      <DependentUpon>TinhLuong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ban va Order\XuatBill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ban va Order\XuatBill.Designer.cs">
+      <DependentUpon>XuatBill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="XepHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="XepHang.Designer.cs">
+      <DependentUpon>XepHang.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ban va Order\BanGhe.resx">
+      <DependentUpon>BanGhe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bep\Bep.resx">
+      <DependentUpon>Bep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewUser.resx">
+      <DependentUpon>NewUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NV va Cong\Check_Form.resx">
+      <DependentUpon>Check_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nha Kho\ChenhLech.resx">
+      <DependentUpon>ChenhLech.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ban va Order\ChuyenBan.resx">
+      <DependentUpon>ChuyenBan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ban va Order\DatMonV2.resx">
+      <DependentUpon>DatMonV2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common\DoanhThuChart.resx">
+      <DependentUpon>DoanhThuChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nha Kho\Khohang.resx">
+      <DependentUpon>Khohang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nha Kho\NhapHang.resx">
+      <DependentUpon>NhapHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nha Kho\NhapXuat.resx">
+      <DependentUpon>NhapXuat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="NV va Cong\QuanLy.resx">
+      <DependentUpon>QuanLy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ban va Order\SoKhach.resx">
+      <DependentUpon>SoKhach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bep\ThemMon.resx">
+      <DependentUpon>ThemMon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="common\ThongKe.resx">
+      <DependentUpon>ThongKe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NV va Cong\TinhLuong.resx">
+      <DependentUpon>TinhLuong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ban va Order\XuatBill.resx">
+      <DependentUpon>XuatBill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="XepHang.resx">
+      <DependentUpon>XepHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Ban va Order\Diagram_Ban.cd" />
+    <None Include="Bep\Diagram_Bep.cd" />
+    <None Include="common\Diagram_Common.cd" />
+    <None Include="Nha Kho\Diagram_NhaKho.cd" />
+    <None Include="NV va Cong\Diagram_NVvaCong.cd" />
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Scripts\jquery-2.1.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\nugetexample.js" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
